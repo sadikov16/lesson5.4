@@ -1,0 +1,28 @@
+header{
+    max-width: 1100px;
+    margin: 50px auto 0;
+}
+.warapper{
+    max-width: 825px;
+}
+.box{
+    background-color: #373F68;
+    border-radius: 10px;
+    max-width: 825px;
+    height: 72px;
+}
+#Btn{
+    color: red;
+}
+@media (min-width: 426px) and (max-width: 768px) {
+    .big_box {
+        flex-direction: column;
+    }
+    .box{
+        max-width: 689px;
+    }
+    .logo{
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
