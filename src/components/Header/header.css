@@ -20,6 +20,7 @@ header{
     }
     .box{
         max-width: 689px;
+        padding: 0 0 20px 0;
     }
     .logo{
         font-size: 18px;

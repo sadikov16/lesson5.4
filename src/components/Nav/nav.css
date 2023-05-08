@@ -1,0 +1,11 @@
+.list{
+    justify-content: center;
+    gap: 30px;
+    list-style-type: none;
+    background-color: aqua;
+    border-radius: 20px;
+}
+.items a{ 
+    color: #000000;
+    text-decoration: none;
+}
