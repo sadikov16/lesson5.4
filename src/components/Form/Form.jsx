@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next"
 export function Form({ id }) {
     const { t, i18n } = useTranslation()
 
+    // eslint-disable-next-line no-unused-vars
     const changeLanguage = (language) => {
         i18n.changeLanguage(language)
     }
