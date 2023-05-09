@@ -3,6 +3,8 @@ import { Nav } from "../components/Nav";
 import { useEffect } from "react";
 import axios from "axios";
 import { List } from "../components/List";
+import "./style.css"
+import { Link } from "react-router-dom";
 
 export function Comments() {
     let [userData, setUserData] = useState([])
@@ -12,8 +14,9 @@ export function Comments() {
     }, [])
     return (
         <>
-        <Nav></Nav>
-        <List userData={userData}/>
+            <Nav></Nav>
+            <Link to="/edit"><button className="editt">Edit Feedback</button></Link>
+            <List userData={userData} />
         </>
     )
 }

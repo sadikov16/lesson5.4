@@ -96,3 +96,6 @@
         padding: 19px 24px 24px 24px;
     }
 }
+.btn:active{
+    background-color: #E84D70;
+}

@@ -7,8 +7,15 @@ import { Form } from "../Form"
 import { Aside } from "../Aside"
 import { Main } from "../Main/Main"
 import { Nav } from "../Nav"
+import { useTranslation } from "react-i18next"
+import { Link } from "react-router-dom"
 
 export function Header({ className }) {
+    const { t, i18n } = useTranslation()
+
+    const changeLanguage = (language) => {
+        i18n.changeLanguage(language)
+    }
     return (
         <header className="">
             <Div className="big_box d-flex gap-3">
@@ -18,10 +25,10 @@ export function Header({ className }) {
                         <Div className="d-flex gap-4 align-items-center ">
                             <Div className="d-flex gap-4 align-items-center ">
                                 <img src={logo} alt="" />
-                                <h2 className="logo text-light">6 Suggestions</h2>
+                                <h2 className="logo text-light">6 {t("Suggestions")}</h2>
                                 <Form></Form>
                             </Div>
-                            <Btn className="btn btn-success">+ Add Feedback</Btn>
+                            <Link to="/add"><Btn className="btn btn-success">+ {t("Feedback")}</Btn></Link>
                         </Div>
                         <Nav></Nav>
                     </Div>

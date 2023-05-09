@@ -1,0 +1,91 @@
+.form{
+    margin: 50px auto;
+    width: 540px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 52px 42px;
+    position: relative;
+}
+.create{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: -0.333333px;
+    color: #3A4374;
+}
+.img{
+    position: absolute;
+    top: -25px;
+}
+.main{
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.194444px;
+    color: #3A4374;
+}
+.sub{
+    font-size: 14px;
+    line-height: 20px;
+    color: #647196;
+}
+.input{
+    margin-top: 18px;
+    height: 48px;
+    width: 456px;
+    background: #F7F8FD;
+    border-radius: 5px;
+}
+.input_big{
+    height: 96px;
+    width: 456px;
+    background: #F7F8FD;
+    border-radius: 5px;
+}
+.feedback_box{
+    gap: 16px;
+    margin-top: 32px;
+    display: flex;
+    justify-content: end;
+}
+.cancel{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #F2F4FE;
+    background: #3A4374;
+    border-radius: 10px;
+    padding: 12px 24px;
+    border: none;
+}
+.add{
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #F2F4FE;
+    background: #AD1FEA;
+    border-radius: 10px;
+    padding: 12px 24px;
+}
+.editt{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #F2F4FE;
+    background: #4661E6;
+    border-radius: 10px;
+    padding: 12px 24px;
+    border: none;
+}
+.delete{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    background: #D73737;
+    border-radius: 10px;
+    padding: 12px 24px;
+    border: none;
+    color: #F2F4FE;
+}
