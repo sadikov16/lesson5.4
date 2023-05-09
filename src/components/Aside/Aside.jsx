@@ -34,7 +34,7 @@ export function Aside() {
                         <h1>Roadmap</h1>
                         <a href="somewhere">View</a>
                     </Div>
-                    {/* <Ul className="listt">
+                    <Ul className="listt">
                         <li className="li">
                             <h1>Planned</h1>
                             <h2>3</h2>
@@ -47,7 +47,7 @@ export function Aside() {
                             <h1>Live</h1>
                             <h2>1</h2>
                         </li>
-                    </Ul> */}
+                    </Ul>
                 </li>
             </Ul>
         </Div>
