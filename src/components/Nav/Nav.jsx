@@ -22,8 +22,22 @@ export function Nav() {
                     <li className="items">
                         <Link to="/about">{t("About")}</Link>
                     </li>
+                    <li className="items">
+                        <Link to="/login">Login</Link>
+                    </li>
+                    <li className="items">
+                        <Link to="/admin">Admin</Link>
+                    </li>
                 </ul>
             </nav>
         </>
     )
 }
+
+<div class="card text-left">
+  <img class="card-img-top" src="" alt=""/>
+  <div class="card-body">
+    <h4 class="card-title">Title</h4>
+    <p class="card-text">Body</p>
+  </div>
+</div>
